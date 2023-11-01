@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Scyclone
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - name: Torsion Audio
+    address: 'Straße des 17. Juni, 135'
+    city: Berlin
+    country: GE
+    post-code: '10623'
+    region: Berlin-Charlottenburg
+    website: 'https://www.torsion-audio.com/'
+repository-code: 'https://github.com/Torsion-Audio/Scyclone'
+abstract: >-
+  Scyclone is an audio plugin that utilizes neural timbre
+  transfer technology to offer a new approach to audio
+  production.
+license: GPL-3.0
+commit: f23944a
+version: Scyclone v.0.0.3
+date-released: '2023-05-06'

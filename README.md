@@ -56,10 +56,19 @@ cmake --build cmake-build --config Release
 - The onnx library is now linked statically. No more need to download the onnx library via homebrew or via the github repository. Also the binaries are now notarized.
 - For Windows at the moment only release builds are supported. Debug builds will be supported with future updates.
 - The AU plugin has not been tested with Logic yet. Logic support will come in futher updates.
+- For further information on creating your own build with CMake, colsult their [guide](https://cmake.org/cmake/help/latest/guide/user-interaction/index.html#guide:User%20Interaction%20Guide) 
 
 ## Training
 Discover how to train your own RAVE-Models for Scyclone with our comprehensive step-by-step guide: 
 - [Scyclone-AI](https://github.com/Torsion-Audio/Scyclone-AI/)
+
+## Contribution Guidelines
+
+Contributions are welcome! For more information, see the [Contribution Guidelines](./CONTRIBUTIONS.md) 
+
+## Code of Conduct
+
+If you intend to participate in the development of this project, please adhere to our [Code of Conduct](./CONDUCT.md)
 
 ## References
 
@@ -73,3 +82,5 @@ This project is subject to multiple licenses. The primary license for the entire
  - The Granular Delay module located at ```modules/RnboExport/``` is licensed under the [GPLv3](https://support.cycling74.com/hc/en-us/articles/10730637742483-RNBO-Export-Licensing-FAQ)
  - All pretrained onnx models located at ```assets/models/``` are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://github.com/acids-ircam/RAVE/blob/master/LICENSE) 
  - All other code within this project is licensed under the MIT License.
+
+[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8B%20%20%E2%97%8B%20%20%E2%97%8B-orange)](https://fair-software.eu)
